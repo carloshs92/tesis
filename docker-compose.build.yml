@@ -1,0 +1,7 @@
+version: '2'
+services:
+
+  base:
+    image: python3_orange:base
+    build:
+      context: ./docker/python/
